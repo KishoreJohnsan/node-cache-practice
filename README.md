@@ -1,6 +1,8 @@
 ### Web app for consuming superhero API
 NodeJs client for consuming [Superhero API](https://superheroapi.com/).
-Redis used as caching mechanism
+`node-cache` used as caching mechanism
+
+Web app is live at <https://comichar.herokuapp.com/>
 
 ### Functionalities
 *	Get stats for random character
@@ -15,8 +17,5 @@ Get API key from [Superhero API](https://superheroapi.com/)
 Create `.env` file
 ```
 SUPERHERO_API_KEY = 
-REDIS_HOST=
-REDIS_PORT=
-PWD=
 ```
   
